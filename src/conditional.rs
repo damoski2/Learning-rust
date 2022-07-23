@@ -1,5 +1,5 @@
 pub fn run(){
-    let age: u8 = 18;
+    let age: u8 = 22;
     let check_id: bool = true;
     let knows_person_of_age = true;
 
@@ -11,4 +11,8 @@ pub fn run(){
     }else{
         println!("Bartender: I'll need to see your ID");
     }
+
+    //Shorthand If
+    let is_of_age = if age >= 21 { true } else { false };
+    println!("Is of Age: {}", is_of_age);
 }

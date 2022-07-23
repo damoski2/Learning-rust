@@ -5,7 +5,11 @@
 //mod tuples;
 //mod arrays;
 //mod vectors;
-mod conditional;
+//mod conditional;
+//mod loops;
+//mod functions;
+//mod pointer_ref;
+mod structs;
 
 
 fn main() {
@@ -16,5 +20,9 @@ fn main() {
     //tuples::run();
     //arrays::run();
     //vectors::run();
-    conditional::run();
+    //conditional::run();
+    //loops::run();
+    //functions::run();
+    //pointer_ref::run();
+    structs::run();
 }
